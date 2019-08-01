@@ -1,0 +1,49 @@
+#logo {
+	width: 150px;
+	height: 75px;
+}
+.navbar {
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	z-index: ;
+	background-color: rgb(245, 248, 248);
+}
+.nav-item {
+	margin: 30px;
+}
+#signup {
+	background-color: brown;
+	height: 30px;
+
+	align-items: center;
+	display: flex;
+	border-radius: 10px;
+}
+#login {
+	background-color: rgb(152, 153, 156);
+	height: 30px;
+
+	align-items: center;
+	display: flex;
+	border-radius: 10px;
+}
+.header {
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	z-index: 3;
+	background-color: rgb(245, 248, 248);
+}
+.navfix {
+	position: sticky;
+}

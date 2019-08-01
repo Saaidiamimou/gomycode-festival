@@ -1,0 +1,146 @@
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 80px;
+}
+
+.contact-card {
+	cursor: pointer;
+	width: 30%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.contact-card__image {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 250px;
+	width: 100%;
+}
+
+.contact-card:hover {
+	box-shadow: 0 10px 10px 0 #d3cfc9;
+}
+
+.contact-card__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#name {
+	color: royalblue;
+}
+.date {
+	color: darkgoldenrod;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700);
+
+p {
+	margin-bottom: 0.5em;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.container {
+	padding-top: 1em;
+	margin-top: 1em;
+	border-top: solid 1px #ccc;
+}
+
+.btnOrange {
+	background: #48a1e9;
+	font-size: 16px;
+}
+
+.btnOrange.btnPush:hover {
+	box-shadow: 0px 0px 0px 0px #0f0f0f;
+}
+
+/* FLOAT */
+.btnFloat {
+	background: none;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btnFloat:before {
+	content: 'Float';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height: 50px;
+	border-radius: 5px;
+	transition: all 0.2s;
+}
+
+.btnFloat:before {
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.btnFloat:hover:before {
+	margin-top: -2px;
+	margin-left: 0px;
+	transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.25);
+}
+
+#btn {
+	float: right;
+}
+.contenu {
+	display: flex;
+	justify-content: space-between;
+}
+.festdjem {
+	display: flex;
+}
+#lieu {
+	background-color: rgb(228, 228, 167);
+	height: 30px;
+	text-decoration: none !important;
+	align-items: center;
+	display: flex;
+	border-radius: 5px;
+}
+#title {
+	margin-left: 450px !important;
+	width: 250px !important;
+	height: 100px !important;
+}
+
+.slide-djem {
+	margin-right: 100px;
+	margin-left: 100px;
+	padding: 100px;
+}
+.descrip-djem {
+	display: flex;
+}
+.ptdevente {
+	margin: 10px;
+	margin-left: 15px;
+}
+.backgroundd {
+	background-color: #722121;
+}
+/* .search {
+	margin-top: 0px !important;
+} */

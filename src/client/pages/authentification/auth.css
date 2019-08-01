@@ -1,0 +1,16 @@
+#padding {
+	padding: 30px;
+	color: rgb(185, 24, 24) !important;
+	margin-right: 100px;
+}
+#input {
+	width: 30%;
+	height: 20%;
+}
+#envoyer {
+	width: 30%;
+}
+#titlee {
+	display: flex;
+	margin: 30px;
+}

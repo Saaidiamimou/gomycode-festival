@@ -1,0 +1,11 @@
+.logo {
+	width: 150px;
+	height: 100px;
+}
+.py-5 {
+	display: flex;
+	align-content: center;
+}
+.nav {
+	display: flex;
+}
